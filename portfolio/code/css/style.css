@@ -215,16 +215,18 @@ input[type=text] {
 
 #modal-section-1 {
     width: 48%;
-    height: 100px;
-    border-right: 2px solid black;
+    height: 100%;
+    border-right: 2px solid #23a6d5;
     margin-right: 10px;
     float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 #modal-section-2 {
     width: 48%;
-    height: 100px;
-    border-left: 2px solid black;
+    height: 100%;
+    border-left: 2px solid #23a6d5;
     margin-right: 10px;
     float: left;
 }
@@ -326,7 +328,7 @@ input[type=text] {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    height: 100px;
+    height: 300px;
     /* Could be more or less, depending on screen size */
 }
 
@@ -345,4 +347,13 @@ input[type=text] {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+#connect-social-media {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+#modal-section-1-content {
+    text-align: center;
 }
