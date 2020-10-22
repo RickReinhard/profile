@@ -4,9 +4,11 @@
 <head>
     <title>Bootstrap 4 Website Example</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body onload="typeWriter()">
@@ -15,24 +17,24 @@
         <!-- <div class="portrait">
             <img src="images/me.jpg" id="home-page-picture" alt="Portrait">
         </div> -->
-        <div class="fullName">
-            <p id="demo"></p>
+        <div class="homePage-fullName">
+            <p id="demo">Welcome to Rick Reinhard's website</p>
 
-            <script>
+            <!--<script>
                 var i = 0;
                 var txt = "Welcome to Rick Reinhard's website";
                 var speed = 50;
-
-                function typeWriter() {
-                    if (i < txt.length) {
-                        document.getElementById("demo").innerHTML += txt.charAt(i);
-                        i++;
-                        setTimeout(typeWriter, speed);
-                    }
-                }
-            </script>
-
+                typeWriter();
+            </script>-->
         </div>
+        <div class="homePage-tagline">
+            <p id="action-call">Please choose one of the two options:</p>
+        </div>
+        <div class="homePage-options">
+            <button id="modal1">Connect with me! <br><i class="fa fa-facebook-f" style="font-size:20px;color:white"></i></button>
+            <button id="modal2">Continue to site</button>
+        </div>
+
 
 
     </div>
